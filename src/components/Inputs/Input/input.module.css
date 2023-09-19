@@ -1,0 +1,36 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  padding-top: 10px;
+}
+
+.container label {
+  padding-left: 5px;
+  padding-bottom: 5px;
+}
+
+.container input {
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid var(--border-color);
+}
+
+.container input:active,
+.container input:focus {
+  border-color: var(--border-color);
+  outline: 3px solid var(--border-color);
+}
+
+.container small {
+  margin-left: 10px;
+  color: red;
+}
+
+.container .error {
+  border-color: red;
+}
+
+.container .error:active,
+.container .error:focus {
+  border-color: red;
+}
